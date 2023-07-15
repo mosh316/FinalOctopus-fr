@@ -4,10 +4,17 @@
   "description": "nodejs restfull api",
   "main": "index.js",
   "scripts": {
+    "install": "npm-git install",
+
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
-    
   },
+  "gitDependencies": {
+    "private-package-name": "git@private.git.server:user/repo.git#revision",
+    "public-package-name": "https://github.com/user/repo.git#revision"
+  },
+  
+ 
   "keywords": [
     "node",
     "mongo",
