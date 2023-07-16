@@ -1,0 +1,8 @@
+<button (click)="showsOne('apples')">show apples</button>
+<button (click)="showAll()">show all</button>
+  
+<div *ngFor="let fr of fruitstoshow">
+    
+    <h1>{{fr.name}}</h1>
+    <h1>{{fr.qty}}</h1>
+  </div>
